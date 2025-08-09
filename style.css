@@ -12,14 +12,21 @@ h2 {
 }
 h3 {
     font-size: 23px;
+    text-align: left;
 }
 ol {
+    display: block;
     text-align: left;
     font-size: 20px;
 }
 
 img {
     border: solid 5px black;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
 
 .Caption {
@@ -105,7 +112,7 @@ img {
     color: transparent;
 }
 
-.mwimage {
+img {
     width: 250px;
     height: 250px;
 }
@@ -133,3 +140,5 @@ img {
 .colorpurple {
     color: purple;
 }
+
+
