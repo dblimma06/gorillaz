@@ -1,17 +1,3 @@
-const botaogradiente = document.querySelector('.botao');
-
-botaogradiente.addEventListener('click', () => {
-       if (document.body.style.backgroundImage === 'linear-gradient(to right, lightgreen, darkgreen)') { 
-       document.body.style.backgroundImage = 'none';
-       document.body.style.backgroundColor = 'green';
-       botaogradiente.textContent = 'Com Gradiente';
-    }
-    else {
-         document.body.style.backgroundImage = 'linear-gradient(to right, lightgreen, darkgreen)';
-         botaogradiente.textContent = 'Sem Gradiente';
-    }
-})
-
 function atualizarContador() {
             // Data alvo (ano, mês - 1, dia)
             const dataAlvo = new Date(2026, 2, 20); // Mês 2 é Março (Janeiro é 0)
