@@ -118,6 +118,12 @@ a {
     color: transparent;
 }
 
+.The_Mountain {
+    background: linear-gradient(to right, #000000, goldenrod);
+    background-clip: text;
+    color: transparent;
+}
+
 img {
     width: 250px;
     height: 250px;
