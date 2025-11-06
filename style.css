@@ -4,10 +4,11 @@
 }
 
 body {
-    background-image: linear-gradient(to right, lightgreen, darkgreen);
+    background-image: linear-gradient(to right, #e2c771, #ddaf6c, #855822);
     font-family: "Rubik", "Roboto", "Inter", Arial, sans-serif;
     text-align: center; 
 }
+
 h2 {
     font-size: 27px;
 }
@@ -92,7 +93,7 @@ a {
     color: transparent;
 }
 .G-Sides {
-    background-image: linear-gradient(to bottom, black, red, yellowgreen, yellowgreen);
+    background-image: linear-gradient(to bottom, #c43231, #99c834);
     background-clip: text;
     color: transparent;
 }
