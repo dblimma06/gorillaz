@@ -1,6 +1,6 @@
 function atualizarContador() {
             // Data alvo (ano, mês - 1, dia)
-            const dataAlvo = new Date(2026, 2, 20); // Mês 2 é Março (Janeiro é 0)
+            const dataAlvo = new Date(2026, 1, 27); // Mês 2 é Março (Janeiro é 0)
             const agora = new Date();
 
             // Calcula a diferença em milissegundos
